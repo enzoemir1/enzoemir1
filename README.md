@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm Enes 👋</h1>
+<h1 align="center">Hey, I'm Enes</h1>
 
 <p align="center">
   <strong>Building AI automation products at <a href="https://automatiabcn.com">Automatia BCN</a> · Barcelona</strong>
@@ -14,11 +14,17 @@
 
 ### What I Build
 
-I create AI-powered automation products — n8n workflows, SaaS boilerplates, prompt packs, and templates. Everything is built to save time and ship faster.
+AI-powered automation products — n8n workflows, SaaS boilerplates, prompt packs, and templates. Everything built to save time and ship faster.
 
-### AutoFlow — AI Automation Workflows for n8n
+### Open Source
 
-My latest project: **8 ready-to-use n8n workflows** that automate content, sales, support, email, and more.
+| Repo | What's Inside |
+|------|-------------|
+| **[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)** | 8 free AI automation workflows for n8n (content, leads, email, chatbot, social, onboarding, scraping, voice) |
+| **[free-ai-prompts](https://github.com/enzoemir1/free-ai-prompts)** | 90 free AI prompts across 9 categories (marketing, coding, content, education, business, sales, social, art, real estate) |
+| **[cacheflow-ai](https://github.com/enzoemir1/cacheflow-ai)** | AI API cost optimizer — smart caching, free API routing, local model support |
+
+### AutoFlow — AI Automation Workflows
 
 | Product | What It Does |
 |---------|-------------|
@@ -31,25 +37,24 @@ My latest project: **8 ready-to-use n8n workflows** that automate content, sales
 | **DataForge** | Web scraping + AI data extraction |
 | **VoiceAgent** | AI phone assistant + appointment booking |
 
-**Free Lite versions:** [autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)
-
 ### Tech Stack
 
 ```
 n8n · Next.js 14 · TypeScript · TailwindCSS · Prisma · Stripe
-OpenAI · Pinecone · Ollama · Groq (free) · Python
+OpenAI · Pinecone · Ollama · Groq · Python
 ```
 
 ### Numbers
 
-- 🛠️ 20+ products shipped
-- 🤖 8 n8n automation workflows
-- 📦 13 SaaS boilerplates
-- 🎨 20 digital products on Etsy
-- 🌍 Based in Barcelona, Spain
+- 20+ products shipped
+- 8 n8n automation workflows
+- 13 SaaS boilerplates
+- 90 free AI prompts
+- 20 digital products on Etsy
+- Based in Barcelona, Spain
 
 ---
 
 <p align="center">
-  <a href="https://automatiabcn.gumroad.com">Browse all products →</a>
+  <a href="https://automatiabcn.gumroad.com">Browse all products</a> · <a href="https://github.com/enzoemir1/autoflow-n8n-workflows">Free n8n workflows</a> · <a href="https://github.com/enzoemir1/free-ai-prompts">Free AI prompts</a>
 </p>

@@ -21,6 +21,7 @@ AI-powered automation products — n8n workflows, SaaS boilerplates, prompt pack
 | Repo | What's Inside |
 |------|-------------|
 | **[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)** | 8 free AI automation workflows for n8n (content, leads, email, chatbot, social, onboarding, scraping, voice) |
+| **[n8n-telegram-approval](https://github.com/enzoemir1/n8n-telegram-approval)** | Human-in-the-loop approval for n8n via Telegram — AI content pipeline + generic approval workflows |
 | **[free-ai-prompts](https://github.com/enzoemir1/free-ai-prompts)** | 90 free AI prompts across 9 categories (marketing, coding, content, education, business, sales, social, art, real estate) |
 | **[cacheflow-ai](https://github.com/enzoemir1/cacheflow-ai)** | AI API cost optimizer — smart caching, free API routing, local model support |
 
@@ -47,10 +48,9 @@ OpenAI · Pinecone · Ollama · Groq · Python
 ### Numbers
 
 - 20+ products shipped
-- 8 n8n automation workflows
+- 10 n8n automation workflows (8 AutoFlow + 2 Telegram Approval)
 - 13 SaaS boilerplates
 - 90 free AI prompts
-- 20 digital products on Etsy
 - Based in Barcelona, Spain
 
 ---

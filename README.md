@@ -21,6 +21,8 @@ AI-powered automation products — n8n workflows, SaaS boilerplates, prompt pack
 | Repo | What's Inside |
 |------|-------------|
 | **[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)** | 8 free AI automation workflows for n8n (content, leads, email, chatbot, social, onboarding, scraping, voice) |
+| **[n8n-prompt-library](https://github.com/enzoemir1/n8n-prompt-library)** | 20 production-ready AI prompts for n8n — content generation, data processing, email, classification, support, SEO |
+| **[n8n-cost-calculator](https://github.com/enzoemir1/n8n-cost-calculator)** | Estimate AI workflow costs — compare 10 models, 6 presets, real-time calculator · [Live Demo](https://enzoemir1.github.io/n8n-cost-calculator/) |
 | **[n8n-telegram-approval](https://github.com/enzoemir1/n8n-telegram-approval)** | Human-in-the-loop approval for n8n via Telegram — AI content pipeline + generic approval workflows |
 | **[free-ai-prompts](https://github.com/enzoemir1/free-ai-prompts)** | 90 free AI prompts across 9 categories (marketing, coding, content, education, business, sales, social, art, real estate) |
 | **[cacheflow-ai](https://github.com/enzoemir1/cacheflow-ai)** | AI API cost optimizer — smart caching, free API routing, local model support |
@@ -48,7 +50,8 @@ OpenAI · Pinecone · Ollama · Groq · Python
 ### Numbers
 
 - 20+ products shipped
-- 10 n8n automation workflows (8 AutoFlow + 2 Telegram Approval)
+- 12 n8n automation workflows
+- 20 production AI prompts for n8n
 - 13 SaaS boilerplates
 - 90 free AI prompts
 - Based in Barcelona, Spain
@@ -56,5 +59,5 @@ OpenAI · Pinecone · Ollama · Groq · Python
 ---
 
 <p align="center">
-  <a href="https://automatiabcn.gumroad.com">Browse all products</a> · <a href="https://github.com/enzoemir1/autoflow-n8n-workflows">Free n8n workflows</a> · <a href="https://github.com/enzoemir1/free-ai-prompts">Free AI prompts</a>
+  <a href="https://automatiabcn.gumroad.com">Browse all products</a> · <a href="https://github.com/enzoemir1/autoflow-n8n-workflows">Free n8n workflows</a> · <a href="https://enzoemir1.github.io/n8n-cost-calculator/">AI Cost Calculator</a>
 </p>

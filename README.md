@@ -22,6 +22,7 @@ AI-powered automation products — MCP servers, n8n workflows, SaaS boilerplates
 | Repo | What's Inside |
 |------|-------------|
 | **[leadpipe-mcp](https://github.com/enzoemir1/leadpipe-mcp)** | AI lead qualification MCP server — ingest, enrich, score 0-100, export to CRM · [MCPize](https://mcpize.com/mcp/leadpipe-mcp) |
+| **[invoiceflow-mcp](https://github.com/enzoemir1/invoiceflow-mcp)** | AI invoice automation MCP server — PDF invoices, late payment risk, cash flow tracking · [MCPize](https://mcpize.com/mcp/invoiceflow-mcp) |
 | **[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)** | 8 free AI automation workflows for n8n (content, leads, email, chatbot, social, onboarding, scraping, voice) |
 | **[n8n-prompt-library](https://github.com/enzoemir1/n8n-prompt-library)** | 20 production-ready AI prompts for n8n — content generation, data processing, email, classification, support, SEO |
 | **[n8n-cost-calculator](https://github.com/enzoemir1/n8n-cost-calculator)** | Estimate AI workflow costs — compare 10 models, 6 presets, real-time calculator · [Live Demo](https://enzoemir1.github.io/n8n-cost-calculator/) |
@@ -34,6 +35,7 @@ AI-powered automation products — MCP servers, n8n workflows, SaaS boilerplates
 | Server | Description | Marketplace |
 |--------|-------------|-------------|
 | **LeadPipe MCP** | AI lead qualification — 8 tools for ingest, enrich, score, search, export | [MCPize](https://mcpize.com/mcp/leadpipe-mcp) |
+| **InvoiceFlow MCP** | AI invoice automation — PDF invoices, risk prediction, payment reconciliation, cash flow | [MCPize](https://mcpize.com/mcp/invoiceflow-mcp) |
 
 ### AutoFlow — AI Automation Workflows
 
@@ -57,7 +59,7 @@ OpenAI · Pinecone · Ollama · Groq · Python
 
 ### Numbers
 
-- 1 MCP server on MCPize marketplace
+- 2 MCP servers on MCPize marketplace
 - 20+ products shipped
 - 12 n8n automation workflows
 - 20 production AI prompts for n8n

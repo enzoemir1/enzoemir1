@@ -21,6 +21,7 @@ AI-powered automation products — MCP servers, n8n workflows, SaaS boilerplates
 
 | Repo | What's Inside |
 |------|-------------|
+| **[mcp-server-starter](https://github.com/enzoemir1/mcp-server-starter)** | Minimal, production-ready MCP server template — stdio + HTTP, typed Zod tools, tests & CI. Clone and ship your own MCP server in minutes. |
 | **[leadpipe-mcp](https://github.com/enzoemir1/leadpipe-mcp)** | AI lead qualification MCP server — ingest, enrich, score 0-100, export to CRM · [MCPize](https://mcpize.com/mcp/leadpipe-mcp) |
 | **[invoiceflow-mcp](https://github.com/enzoemir1/invoiceflow-mcp)** | AI invoice automation MCP server — PDF invoices, late payment risk, cash flow tracking · [MCPize](https://mcpize.com/mcp/invoiceflow-mcp) |
 | **[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)** | 8 free AI automation workflows for n8n (content, leads, email, chatbot, social, onboarding, scraping, voice) |

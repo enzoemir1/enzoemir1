@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://mcpize.com/mcp/leadpipe-mcp"><img src="https://img.shields.io/badge/MCPize-LeadPipe_MCP-2A9D8F?style=flat-square" alt="MCPize"></a>
-  <a href="https://automatiabcn.gumroad.com"><img src="https://img.shields.io/badge/Gumroad-Products-FF90E8?style=flat-square&logo=gumroad&logoColor=white" alt="Gumroad"></a>
+  <a href="https://automatiabcn.com"><img src="https://img.shields.io/badge/Website-automatiabcn.com-1e57ac?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
   <a href="https://x.com/automatiabcn"><img src="https://img.shields.io/badge/Twitter-@automatiabcn-1DA1F2?style=flat-square&logo=x&logoColor=white" alt="Twitter"></a>
   <a href="https://www.etsy.com/shop/automatiabcn"><img src="https://img.shields.io/badge/Etsy-Shop-F1641E?style=flat-square&logo=etsy&logoColor=white" alt="Etsy"></a>
 </p>
@@ -36,6 +36,8 @@ AI-powered automation products — MCP servers, n8n workflows, SaaS boilerplates
 |--------|-------------|-------------|
 | **LeadPipe MCP** | AI lead qualification — 8 tools for ingest, enrich, score, search, export | [MCPize](https://mcpize.com/mcp/leadpipe-mcp) |
 | **InvoiceFlow MCP** | AI invoice automation — PDF invoices, risk prediction, payment reconciliation, cash flow | [MCPize](https://mcpize.com/mcp/invoiceflow-mcp) |
+| **ShopOps MCP** | AI e-commerce ops — inventory, pricing, RFM, anomaly detection for Shopify & WooCommerce | [GitHub](https://github.com/enzoemir1/shopops-mcp) |
+| **AdOps MCP** | AI ad management/analytics for Google Ads & Meta Ads | [GitHub](https://github.com/enzoemir1/adops-mcp) |
 
 ### AutoFlow — AI Automation Workflows
 
@@ -70,5 +72,5 @@ OpenAI · Pinecone · Ollama · Groq · Python
 ---
 
 <p align="center">
-  <a href="https://mcpize.com/mcp/leadpipe-mcp">LeadPipe MCP</a> · <a href="https://automatiabcn.gumroad.com">All products</a> · <a href="https://github.com/enzoemir1/autoflow-n8n-workflows">Free n8n workflows</a> · <a href="https://enzoemir1.github.io/n8n-cost-calculator/">AI Cost Calculator</a>
+  <a href="https://mcpize.com/mcp/leadpipe-mcp">LeadPipe MCP</a> · <a href="https://automatiabcn.com">All products</a> · <a href="https://github.com/enzoemir1/autoflow-n8n-workflows">Free n8n workflows</a> · <a href="https://enzoemir1.github.io/n8n-cost-calculator/">AI Cost Calculator</a>
 </p>

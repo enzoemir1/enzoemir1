@@ -1,77 +1,51 @@
-<h1 align="center">Hey, I'm Enes</h1>
+# Enes Eserkan — Founder & Engineer at Automatia BCN
 
-<p align="center">
-  <strong>Building AI automation products at <a href="https://automatiabcn.com">Automatia BCN</a> · Barcelona</strong>
-</p>
+I build software products end to end: product design, backend, UI, CI/CD, billing and licensing, deployment. Based in Barcelona, relocating to Perth, Australia — open to software engineering roles. Turkish / English / Spanish.
 
-<p align="center">
-  <a href="https://mcpize.com/mcp/leadpipe-mcp"><img src="https://img.shields.io/badge/MCPize-LeadPipe_MCP-2A9D8F?style=flat-square" alt="MCPize"></a>
-  <a href="https://automatiabcn.com"><img src="https://img.shields.io/badge/Website-automatiabcn.com-1e57ac?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
-  <a href="https://x.com/automatiabcn"><img src="https://img.shields.io/badge/Twitter-@automatiabcn-1DA1F2?style=flat-square&logo=x&logoColor=white" alt="Twitter"></a>
-  <a href="https://www.etsy.com/shop/automatiabcn"><img src="https://img.shields.io/badge/Etsy-Shop-F1641E?style=flat-square&logo=etsy&logoColor=white" alt="Etsy"></a>
-</p>
+## What I'm building
 
----
+**ABS Studio** — an AI code editor (VS Code fork) with a self-hosted orchestration engine. Your code stays on your machine.
 
-### What I Build
+- Every proposed edit is graded by a judge model before you see it — score and reasoning, not a diff to accept on faith.
+- A code graph answers "what else does this touch?" so the blast radius of a change is a number, not a surprise in CI.
+- Checks run in the OS's own sandbox (seatbelt / bubblewrap / restricted token). When no sandbox is available it says so — "no checks ran" is never reported as "passed".
+- Undo is checkpoint-based (before the agent, not before the last attempt), and commits carry evidence of what was graded and what ran.
 
-AI-powered automation products — MCP servers, n8n workflows, SaaS boilerplates, prompt packs, and templates. Everything built to save time and ship faster.
+Repo: [automatiabcn/abs](https://github.com/automatiabcn/abs) — source-available (BUSL-1.1), 2,600+ tests, CI + CodeQL + nightly Lighthouse.
 
-### Open Source
+## Open-source MCP servers
 
-| Repo | What's Inside |
-|------|-------------|
-| **[mcp-server-starter](https://github.com/enzoemir1/mcp-server-starter)** | Minimal, production-ready MCP server template — stdio + HTTP, typed Zod tools, tests & CI. Clone and ship your own MCP server in minutes. |
-| **[leadpipe-mcp](https://github.com/enzoemir1/leadpipe-mcp)** | AI lead qualification MCP server — ingest, enrich, score 0-100, export to CRM · [MCPize](https://mcpize.com/mcp/leadpipe-mcp) |
-| **[invoiceflow-mcp](https://github.com/enzoemir1/invoiceflow-mcp)** | AI invoice automation MCP server — PDF invoices, late payment risk, cash flow tracking · [MCPize](https://mcpize.com/mcp/invoiceflow-mcp) |
-| **[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows)** | 8 free AI automation workflows for n8n (content, leads, email, chatbot, social, onboarding, scraping, voice) |
-| **[n8n-prompt-library](https://github.com/enzoemir1/n8n-prompt-library)** | 20 production-ready AI prompts for n8n — content generation, data processing, email, classification, support, SEO |
-| **[n8n-cost-calculator](https://github.com/enzoemir1/n8n-cost-calculator)** | Estimate AI workflow costs — compare 10 models, 6 presets, real-time calculator · [Live Demo](https://enzoemir1.github.io/n8n-cost-calculator/) |
-| **[n8n-telegram-approval](https://github.com/enzoemir1/n8n-telegram-approval)** | Human-in-the-loop approval for n8n via Telegram — AI content pipeline + generic approval workflows |
-| **[free-ai-prompts](https://github.com/enzoemir1/free-ai-prompts)** | 90 free AI prompts across 9 categories (marketing, coding, content, education, business, sales, social, art, real estate) |
-| **[cacheflow-ai](https://github.com/enzoemir1/cacheflow-ai)** | AI API cost optimizer — smart caching, free API routing, local model support |
+TypeScript, MIT, tests and CI on every one.
 
-### MCP Servers
+| Repository | What it does |
+|---|---|
+| [leadpipe-mcp](https://github.com/automatiabcn/leadpipe-mcp) | Lead qualification: ingest, enrich, score 0–100, export to CRM |
+| [invoiceflow-mcp](https://github.com/automatiabcn/invoiceflow-mcp) | PDF invoices, late-payment risk, cash-flow tracking |
+| [shopops-mcp](https://github.com/automatiabcn/shopops-mcp) | Inventory forecasting, pricing, RFM, anomaly detection for Shopify / WooCommerce |
+| [adops-mcp](https://github.com/automatiabcn/adops-mcp) | Google Ads & Meta Ads analytics |
+| [mcp-server-starter](https://github.com/automatiabcn/mcp-server-starter) | Minimal production-ready MCP template: stdio + HTTP, Zod tools, tests, CI |
+| [ai-arena-playground](https://github.com/automatiabcn/ai-arena-playground) | Compare 11 models side by side, self-hosted |
+| [cacheflow-ai](https://github.com/automatiabcn/cacheflow-ai) | AI API cost optimizer: caching + free-tier routing |
 
-| Server | Description | Marketplace |
-|--------|-------------|-------------|
-| **LeadPipe MCP** | AI lead qualification — 8 tools for ingest, enrich, score, search, export | [MCPize](https://mcpize.com/mcp/leadpipe-mcp) |
-| **InvoiceFlow MCP** | AI invoice automation — PDF invoices, risk prediction, payment reconciliation, cash flow | [MCPize](https://mcpize.com/mcp/invoiceflow-mcp) |
-| **ShopOps MCP** | AI e-commerce ops — inventory, pricing, RFM, anomaly detection for Shopify & WooCommerce | [GitHub](https://github.com/enzoemir1/shopops-mcp) |
-| **AdOps MCP** | AI ad management/analytics for Google Ads & Meta Ads | [GitHub](https://github.com/enzoemir1/adops-mcp) |
+## How I work
 
-### AutoFlow — AI Automation Workflows
+- Verify before claiming done — read the output back, don't trust the green checkmark.
+- Write tests that can actually fail; prove new tests with a mutation.
+- Honest UI states: a check that didn't run is reported as "didn't run".
+- Small, reversible changes; every fix grepped across all of its siblings.
 
-| Product | What It Does |
-|---------|-------------|
-| **FlowScribe** | 1 blog post → 8 platform posts automatically |
-| **LeadPilot** | AI lead generation + personalized cold emails |
-| **SupportFlow** | RAG chatbot with human handoff |
-| **InboxZero** | AI email classifier + auto-actions |
-| **SocialPulse** | Reddit/HN/Dev.to trend monitor |
-| **ClientFlow** | Automated client onboarding pipeline |
-| **DataForge** | Web scraping + AI data extraction |
-| **VoiceAgent** | AI phone assistant + appointment booking |
+## Stack
 
-### Tech Stack
-
-```
-MCP · n8n · Next.js 14 · TypeScript · TailwindCSS · Prisma · Stripe
-OpenAI · Pinecone · Ollama · Groq · Python
+```text
+TypeScript / Node · Python (FastAPI) · Next.js · Svelte
+PostgreSQL · SQLite · Qdrant · Docker · GitHub Actions · Cloudflare Workers · Stripe
+LLM providers: Anthropic · Groq · Gemini · Cohere · Cloudflare AI · local Ollama / MLX
 ```
 
-### Numbers
+## Smaller projects
 
-- 2 MCP servers on MCPize marketplace
-- 20+ products shipped
-- 12 n8n automation workflows
-- 20 production AI prompts for n8n
-- 13 SaaS boilerplates
-- 90 free AI prompts
-- Based in Barcelona, Spain
+[autoflow-n8n-workflows](https://github.com/enzoemir1/autoflow-n8n-workflows) · [n8n-prompt-library](https://github.com/enzoemir1/n8n-prompt-library) · [n8n-cost-calculator](https://github.com/enzoemir1/n8n-cost-calculator) ([live demo](https://enzoemir1.github.io/n8n-cost-calculator/)) · [n8n-telegram-approval](https://github.com/enzoemir1/n8n-telegram-approval) · [free-ai-prompts](https://github.com/enzoemir1/free-ai-prompts)
 
----
+## Contact
 
-<p align="center">
-  <a href="https://mcpize.com/mcp/leadpipe-mcp">LeadPipe MCP</a> · <a href="https://automatiabcn.com">All products</a> · <a href="https://github.com/enzoemir1/autoflow-n8n-workflows">Free n8n workflows</a> · <a href="https://enzoemir1.github.io/n8n-cost-calculator/">AI Cost Calculator</a>
-</p>
+[automatiabcn.com](https://automatiabcn.com) · [x.com/automatiabcn](https://x.com/automatiabcn) · info@automatiabcn.com

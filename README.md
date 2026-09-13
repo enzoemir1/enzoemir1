@@ -26,6 +26,7 @@ TypeScript, MIT, tests and CI on every one.
 | [mcp-server-starter](https://github.com/automatiabcn/mcp-server-starter) | Minimal production-ready MCP template: stdio + HTTP, Zod tools, tests, CI |
 | [ai-arena-playground](https://github.com/automatiabcn/ai-arena-playground) | Compare 11 models side by side, self-hosted |
 | [cacheflow-ai](https://github.com/automatiabcn/cacheflow-ai) | AI API cost optimizer: caching + free-tier routing |
+| [code-judge-bench](https://github.com/automatiabcn/code-judge-bench) | 2,000 real-bug PASS/FAIL pairs from TSSB-3M + eval harness; the fine-tuning results that did and did not work (Python, MIT) |
 
 ## How I work
 

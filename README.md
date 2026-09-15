@@ -1,6 +1,6 @@
-# Enes Eserkan — Founder & Engineer at Automatia BCN
+# Enes Eserkan — Founder & Developer at Automatia BCN
 
-I build software products end to end: product design, backend, UI, CI/CD, billing and licensing, deployment. Based in Perth, Australia (previously Barcelona) — open to software engineering roles from early 2027; full Australian work rights, no sponsorship needed. Turkish / English / Spanish.
+I build software products end to end: product design, backend, UI, CI/CD, billing and licensing, deployment. Based in Perth, Australia (previously Barcelona) — open to software developer roles from early 2027; full Australian work rights, no sponsorship needed. Turkish · Spanish · English.
 
 ## What I'm building
 
